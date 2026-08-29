@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProFlow Home Services | Reliable Plumbing, HVAC & Handyman</title>
+  <meta name="description" content="Trusted local plumbing, HVAC, and handyman services. Fast response, fair pricing, and work done right the first time. Call or book online today.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">ProFlow<span>Services</span></div>
+      <nav class="nav">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#contact" class="btn btn-primary header-cta">Get Free Quote</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>Reliable Home Services.<br>Done Right. On Time.</h1>
+      <p class="hero-sub">Plumbing • HVAC • Handyman<br>Serving your neighborhood with honest work and fair prices.</p>
+      <div class="hero-buttons">
+        <a href="tel:+15551234567" class="btn btn-primary">Call Now: (555) 123-4567</a>
+        <a href="#contact" class="btn btn-secondary">Request Free Estimate</a>
+      </div>
+      <p class="trust-line">Licensed • Insured • 5-Star Rated</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <div class="container">
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-sub">From emergency repairs to full system installs — we’ve got your home covered.</p>
+      <div class="services-grid">
+        <div class="service-card">
+          <h3>Plumbing</h3>
+          <ul>
+            <li>Leak detection & repair</li>
+            <li>Drain cleaning</li>
+            <li>Water heater install & repair</li>
+            <li>Fixture replacement</li>
+            <li>Emergency service</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Quote</a>
+        </div>
+        <div class="service-card">
+          <h3>HVAC</h3>
+          <ul>
+            <li>AC repair & tune-ups</li>
+            <li>Furnace service</li>
+            <li>New system installation</li>
+            <li>Duct cleaning</li>
+            <li>Thermostat upgrades</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Quote</a>
+        </div>
+        <div class="service-card">
+          <h3>Handyman</h3>
+          <ul>
+            <li>General repairs</li>
+            <li>Drywall & painting</li>
+            <li>Door & window fixes</li>
+            <li>Assembly & mounting</li>
+            <li>Odd jobs & maintenance</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline">Get Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About / Why Us -->
+  <section id="about" class="section section-alt">
+    <div class="container about-grid">
+      <div>
+        <h2 class="section-title">Why Homeowners Choose Us</h2>
+        <ul class="why-list">
+          <li><strong>Fast Response</strong> — Same-day and emergency availability</li>
+          <li><strong>Transparent Pricing</strong> — Upfront quotes, no surprise fees</li>
+          <li><strong>Quality Work</strong> — Done right the first time, guaranteed</li>
+          <li><strong>Local & Trusted</strong> — Your neighbors already recommend us</li>
+          <li><strong>Licensed & Insured</strong> — Full protection for your home</li>
+        </ul>
+      </div>
+      <div class="about-card">
+        <h3>Serving the Local Area</h3>
+        <p>We proudly serve homeowners across the region with reliable, professional service. Whether it’s a small fix or a major install, we treat your home like our own.</p>
+        <a href="#contact" class="btn btn-primary">Book Service Today</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section id="reviews" class="section">
+    <div class="container">
+      <h2 class="section-title">What Customers Say</h2>
+      <div class="reviews-grid">
+        <div class="review-card">
+          <p>“Showed up on time, fixed the leak fast, and the price was exactly what they quoted. Highly recommend.”</p>
+          <span class="reviewer">— Sarah M.</span>
+        </div>
+        <div class="review-card">
+          <p>“Best HVAC service we’ve used. Explained everything clearly and the new system works perfectly.”</p>
+          <span class="reviewer">— James T.</span>
+        </div>
+        <div class="review-card">
+          <p>“Honest, skilled, and professional. Finally found a handyman we can trust for ongoing work.”</p>
+          <span class="reviewer">— Lisa R.</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / CTA -->
+  <section id="contact" class="section section-cta">
+    <div class="container">
+      <h2 class="section-title">Ready to Get It Fixed?</h2>
+      <p class="section-sub">Call now or send a message. We’ll get back to you fast with a clear plan and fair price.</p>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p><strong>Phone:</strong> <a href="tel:+15551234567">(555) 123-4567</a></p>
+          <p><strong>Email:</strong> hello@proflowservices.com</p>
+          <p><strong>Hours:</strong> Mon–Sat 7am–7pm<br>Emergency service available</p>
+        </div>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('This is a demo form. Connect your real form handler or AI assistant here.');">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="tel" name="phone" placeholder="Phone Number" required>
+          <select name="service" required>
+            <option value="">Select Service</option>
+            <option>Plumbing</option>
+            <option>HVAC</option>
+            <option>Handyman</option>
+            <option>Other / Not Sure</option>
+          </select>
+          <textarea name="message" rows="4" placeholder="Tell us what’s going on..."></textarea>
+          <button type="submit" class="btn btn-primary full-width">Request Free Estimate</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="logo">ProFlow<span>Services</span></div>
+      <p>© 2026 ProFlow Home Services. All rights reserved. Licensed & Insured.</p>
+      <p class="powered">Powered by ReadyForge AI</p>
+    </div>
+  </footer>
+
+  <!-- Simple AI Assistant Placeholder -->
+  <div id="ai-assistant" class="ai-widget" onclick="alert('AI Assistant ready. Connect your preferred free AI chatbot or custom Grok widget here.')">
+    💬 Chat with us
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
